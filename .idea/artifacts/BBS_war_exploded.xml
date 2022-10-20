@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BBS:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/BBS_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BBS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="log4j-1.2.17.jar" module-name="BBS" />
+          <element id="library" level="module" name="log4j-api-2.3.jar" module-name="BBS" />
+          <element id="library" level="module" name="log4j-core-2.3.jar" module-name="BBS" />
+          <element id="library" level="module" name="mybatis-3.4.2.jar" module-name="BBS" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.4-bin.jar" module-name="BBS" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BBS/web/Web" />
+    </root>
+  </artifact>
+</component>
